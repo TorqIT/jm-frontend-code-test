@@ -1,0 +1,19 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "Small code challenges for Torq IT Hiring",
+  "main": "index.js",
+  "scripts": {
+    "challenge-1": "jest --watch --testPathPattern challenge-1",
+    "challenge-2": "jest --watch --testPathPattern challenge-2",
+    "challenge-3": "jest --watch --testPathPattern challenge-3"
+  },
+  "author": "Chris D. Macrae",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
